@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Frank+Ruhl+Libre&family=Stick+No+Bills:wght@500&display=swap");
+.contain-table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(255, 0, 0);
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: "Stick No Bills", sans-serif;
+}
+th,
+td:hover {
+  background-color: rgba(0, 248, 165, 0.556);
+  transition: 0.6s;
+  color: rgb(2, 37, 90);
+}
+@media only screen and (min-width: 200px) and (max-width: 675px) {
+  #heading {
+    color: coral;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem;
+    background-color: rgba(0, 40, 75, 0.728);
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+}
